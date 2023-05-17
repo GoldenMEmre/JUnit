@@ -1,4 +1,4 @@
-package practice;
+package practice_BabayigitHoca;
 
 public class Odev {
     // ilgili kurulumlari tamamlayalim
