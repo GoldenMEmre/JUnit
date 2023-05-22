@@ -4,25 +4,23 @@ import org.junit.*;
 
 public class P01 {
     /*
-      @BeforeClass //Sadece bir kere çalışıyor
-      @Before //
-      @AfterClass
-      @After
-      @Test
-     */
+     @BeforeClass       // Sadece 1 kere çalışıyor
+     @Before           //Her testten önce 1 kere çalışır
+     @AfterClass      //Tüm testlerden sonra 1 kere çalışır
+     @After          // her testten sonra 1 kere çalışır
+     @Test          //Yapacağımız test kodlarının yer aldığı kısım
+         */
     @Test
-    public void test01() {
-        System.out.println("test 01");
+    public void ahmet(){
+        System.out.println("Ahmet");
+    }
+    @Test
+    public void berk(){
+        System.out.println("Berk");
+    }
+    @Test
+    public void cemil(){
+        System.out.println("Cemil");
     }
 
-    @Test
-    public void test02() {
-        System.out.println("Test 02");
-    }
-
-    @Test
-    public void test03() {
-        System.out.println("test 03");
-
-    }
 }
